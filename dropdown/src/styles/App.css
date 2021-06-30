@@ -48,12 +48,62 @@ table {
   border-spacing: 0;
 }
 
+:root {
+  --app-bg: #E5E5E5;
+  --blue-900: #041E42;
+  --white: #FFFFFF;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
-  color: red;
+.app-container {
+  background-color: var(--app-bg);
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  height: 64px;
+  width: 100%;
+  background-color: var(--blue-900);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: var(--white);
+  align-self: center;
+  padding-left: 24px;
+}
+
+.header-logo {
+  background-image: url("./../vectors/logo.svg");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  padding-right: 16px;
+}
+
+.subheader {
+  height: 68px;
+  width: 100%;
+  background-color: var(--white);
+  display: flex;
+}
+
+.subheader-title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--blue-900);
+  align-self: center;
+  padding-left: 36px;
 }
 
 /*# sourceMappingURL=App.css.map */
