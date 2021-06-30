@@ -78,6 +78,9 @@ table {
     text-align: left;
     padding: 16px;
   }
+  th {
+    font-weight: 700;
+  }
   thead {
     tr {
       background-color: var(--blue-100);
@@ -88,6 +91,10 @@ table {
     tr {
       background-color: var(--white) ;
       border-bottom: 1px solid var(--grey-100);
+      transition: background-color 300ms ease;
+      &:hover {
+        background-color: var(--blue-200);
+      }
     }
   }
 }

@@ -123,6 +123,9 @@ table th, table td {
   text-align: left;
   padding: 16px;
 }
+table th {
+  font-weight: 700;
+}
 table thead tr {
   background-color: var(--blue-100);
   border-bottom: 1px solid var(--blue-200);
@@ -130,6 +133,10 @@ table thead tr {
 table tbody tr {
   background-color: var(--white);
   border-bottom: 1px solid var(--grey-100);
+  transition: background-color 300ms ease;
+}
+table tbody tr:hover {
+  background-color: var(--blue-200);
 }
 
 /*# sourceMappingURL=App.css.map */
