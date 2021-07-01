@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Adding my-dropdown">
-      <change afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/vectors/arrow.svg" afterDir="false" />
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Adding SVG Arrow + animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" afterDir="false" />
@@ -57,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625047076399</updated>
-      <workItem from="1625047082045" duration="16728000" />
+      <workItem from="1625047082045" duration="22582000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app-container, header and subheader elements and styles">
       <created>1625067200991</created>
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625170203729</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding SVG Arrow + animation">
+      <created>1625171178832</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625171178832</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +131,7 @@
     <MESSAGE value="Hover on table row, making column title bold" />
     <MESSAGE value="Adding stencil to project" />
     <MESSAGE value="Adding my-dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding my-dropdown" />
+    <MESSAGE value="Adding SVG Arrow + animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding SVG Arrow + animation" />
   </component>
 </project>
