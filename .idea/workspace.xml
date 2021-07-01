@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Adding stencil to project">
-      <change afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" afterDir="false" />
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Adding my-dropdown">
+      <change afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/vectors/arrow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-component/my-component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-component/my-component.e2e.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-component/my-component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-component/my-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-component/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/utils/utils.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/utils/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625047076399</updated>
-      <workItem from="1625047082045" duration="15755000" />
+      <workItem from="1625047082045" duration="16728000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app-container, header and subheader elements and styles">
       <created>1625067200991</created>
@@ -101,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625161276051</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding my-dropdown">
+      <created>1625170203729</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625170203729</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +124,7 @@
     <MESSAGE value="Comments during development" />
     <MESSAGE value="Hover on table row, making column title bold" />
     <MESSAGE value="Adding stencil to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding stencil to project" />
+    <MESSAGE value="Adding my-dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding my-dropdown" />
   </component>
 </project>

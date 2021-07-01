@@ -20,6 +20,17 @@
   align-self: center;
 }
 
+.placeholder-arrow svg {
+  height: 7px;
+  width: 12px;
+  transform: rotate(0);
+  transition: transform 300ms ease;
+}
+
+.dropdown-placeholder.dropdown-placeholder--opened > .placeholder-arrow svg {
+  transform: rotate(180deg);
+}
+
 .dropdown-options {
   border: 1px solid #E2E2E4;
   width: 206px;

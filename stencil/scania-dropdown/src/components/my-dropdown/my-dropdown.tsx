@@ -25,7 +25,9 @@ export class MyDropdown {
     return <div>
         <button class={this.dropdownToggleCSSClass()} onClick={this.toggleDropdown}>
           <span class="placeholder-text">Test text</span>
-          <span class="placeholder-arrow">SVG</span>
+          <span class="placeholder-arrow">
+            <svg width="12" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l5 5 5-5" stroke="#000" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
         </button>
         <div class="dropdown-options">
           <input type="radio" id="option_1" name="distance" value="200000" />
