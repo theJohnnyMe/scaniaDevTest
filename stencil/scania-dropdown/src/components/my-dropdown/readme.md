@@ -9,7 +9,7 @@
 
 | Property      | Attribute     | Description | Type     | Default              |
 | ------------- | ------------- | ----------- | -------- | -------------------- |
-| `placeholder` | `placeholder` |             | `string` | `"Placeholder text"` |
+| `placeholder` | `placeholder` |             | `string` | `'Placeholder text'` |
 
 
 ----------------------------------------------

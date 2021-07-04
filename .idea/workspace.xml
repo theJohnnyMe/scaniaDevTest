@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="spacing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/.prettierrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +34,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/stencil/scania-dropdown/src/components" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/stencil/scania-dropdown/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -181,5 +183,9 @@
     <MESSAGE value="reset to uncheck selected option" />
     <MESSAGE value="spacing" />
     <option name="LAST_COMMIT_MESSAGE" value="spacing" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
