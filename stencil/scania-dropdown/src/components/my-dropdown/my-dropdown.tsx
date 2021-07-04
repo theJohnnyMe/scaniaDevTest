@@ -32,6 +32,11 @@ export class MyDropdown {
     this.placeholderValue = 0;
     this.placeholderText = this.placeholder;
     this.isOpened = false;
+
+    const selectedOption = document.querySelector('input[type=radio][name=distance]:checked') as HTMLInputElement;
+    if (selectedOption) {
+      selectedOption.checked = false;
+    }
   }
 
 
