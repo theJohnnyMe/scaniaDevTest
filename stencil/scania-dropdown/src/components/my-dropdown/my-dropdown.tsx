@@ -1,12 +1,16 @@
-import { Component, Prop, h, State } from '@stencil/core';
+import { Component, Prop, h, State, Fragment } from '@stencil/core';
 
 @Component({
   tag: 'my-dropdown',
   styleUrl: 'my-dropdown.css',
-  shadow: true,
+  shadow: false,
 })
 export class MyDropdown {
   @Prop() placeholder: string = 'Placeholder text';
+  @Prop() optionList: any[] = [
+    { text: '<= 200000 km', value: '<= 200000' },
+    { text: '> 200 000 km', value: '> 200 000' },
+  ];
   @State() placeholderText: string = this.placeholder;
   @State() placeholderValue: number = 0;
   @State() isOpened: boolean = false;
@@ -30,9 +34,7 @@ export class MyDropdown {
     this.placeholderText = this.placeholder;
     this.isOpened = false;
 
-    const selectedOption = document.querySelector(
-      'input[type=radio][name=distance]:checked',
-    ) as HTMLInputElement;
+    const selectedOption = document.querySelector('input[type=radio]:checked') as HTMLInputElement;
     if (selectedOption) {
       selectedOption.checked = false;
     }
@@ -61,22 +63,18 @@ export class MyDropdown {
             </span>
           </button>
           <div class="dropdown-options">
-            <input
-              type="radio"
-              id="option_1"
-              name="distance"
-              value="<= 200000"
-              onChange={this.handleOnChange}
-            />
-            <label htmlFor="option_1">{'<= 200 000 km'}</label>
-            <input
-              type="radio"
-              id="option_2"
-              name="distance"
-              value="> 200000"
-              onChange={this.handleOnChange}
-            />
-            <label htmlFor="option_2">{'> 200 000 km'}</label>
+            {this.optionList.map((item, index) => (
+              <Fragment>
+                <input
+                  type="radio"
+                  id={'option_' + index}
+                  name="dropdownOptions"
+                  value={item.value}
+                  onChange={this.handleOnChange}
+                />
+                <label htmlFor={'option_' + index}>{item.text}</label>
+              </Fragment>
+            ))}
           </div>
         </div>
         <button class="dropdown-reset" onClick={this.handleReset}>
