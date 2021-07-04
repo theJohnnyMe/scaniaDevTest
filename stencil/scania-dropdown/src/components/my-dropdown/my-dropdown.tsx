@@ -3,6 +3,7 @@ import { Component, Prop, h, State } from '@stencil/core';
 @Component({
   tag: 'my-dropdown',
   styleUrl: 'my-dropdown.css',
+  shadow: true,
 })
 export class MyDropdown {
   @Prop() placeholder: string = 'Placeholder text';
