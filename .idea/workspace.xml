@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Reset button to close dropdown">
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="reset to uncheck selected option">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" afterDir="false" />
     </list>
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625047076399</updated>
-      <workItem from="1625047082045" duration="25850000" />
+      <workItem from="1625047082045" duration="25905000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app-container, header and subheader elements and styles">
       <created>1625067200991</created>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625419714210</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="reset to uncheck selected option">
+      <created>1625420354735</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625420354735</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +170,7 @@
     <MESSAGE value="unversioned files" />
     <MESSAGE value="Adding reset button" />
     <MESSAGE value="Reset button to close dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reset button to close dropdown" />
+    <MESSAGE value="reset to uncheck selected option" />
+    <option name="LAST_COMMIT_MESSAGE" value="reset to uncheck selected option" />
   </component>
 </project>

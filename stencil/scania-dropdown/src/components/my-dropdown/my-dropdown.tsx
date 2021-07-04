@@ -4,6 +4,7 @@ import { Component, Prop, h, State } from '@stencil/core';
   tag: 'my-dropdown',
   styleUrl: 'my-dropdown.css'
 })
+
 export class MyDropdown {
 
   @Prop() placeholder: string = "Placeholder text";
@@ -20,7 +21,6 @@ export class MyDropdown {
   }
 
   dropdownToggleCSSClass = () => "dropdown-placeholder " + (this.isOpened ? "dropdown-placeholder--opened" : "");
-
 
   handleOnChange = (event) => {
     this.placeholderText = event.target.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " km";
@@ -39,9 +39,7 @@ export class MyDropdown {
     }
   }
 
-
   render() {
-
     return <div class="dropdown-wrapper">
       <div class="dropdown">
         <button class={this.dropdownToggleCSSClass()} onClick={this.toggleDropdown} value={this.placeholderValue}>
