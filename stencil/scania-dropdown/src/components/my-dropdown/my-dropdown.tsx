@@ -31,6 +31,7 @@ export class MyDropdown {
   handleReset = () => {
     this.placeholderValue = 0;
     this.placeholderText = this.placeholder;
+    this.isOpened = false;
   }
 
 
