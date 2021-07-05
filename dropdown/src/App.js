@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "../../react-app/src/styles/App.css";
 
 function App() {
   return (

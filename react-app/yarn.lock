@@ -1479,6 +1479,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@stencil/core@^2.0.1":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.6.0.tgz#29da96d8b6fc83e689b9f297ef3e8b59b90a676a"
+  integrity sha512-QsxWayZyusnqSZrlCl81R71rA3KqFjVVQSH4E0rGN15F1GdQaFonKlHLyCOLKLig1zzC+DQkLLiUuocexuvdeQ==
+
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-1.4.2.tgz#e6786b6af5799f82f7ab3a82e53f6182d2b91a58"
@@ -6576,6 +6581,13 @@ jest@26.6.0:
     "@jest/core" "^26.6.0"
     import-local "^3.0.2"
     jest-cli "^26.6.0"
+
+johnny-custom-dropdown@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/johnny-custom-dropdown/-/johnny-custom-dropdown-0.0.1.tgz#97369ae33941a90fbcc1992f03dd98c483c9e271"
+  integrity sha512-ymUAAV4bVfW/BZdqPBJtpZs7janoQ8dJ8l9FMdNiXR2EDk8mqijYV80E4BmxqyLihTHCxvv4XgPp7Mecmd8iNQ==
+  dependencies:
+    "@stencil/core" "^2.0.1"
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
