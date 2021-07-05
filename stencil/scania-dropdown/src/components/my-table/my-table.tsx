@@ -86,7 +86,7 @@ export class MyTable {
             <tr key={item.id}>
               <td>{item.driver}</td>
               <td>{item.company}</td>
-              <td>{item.distance} km</td>
+              <td>{item.distance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')} km</td>
               <td>{item.score}</td>
             </tr>
           ))}

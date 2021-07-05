@@ -19,6 +19,10 @@ export class MyDropdown {
     this.isOpened = this.isOpened !== true;
   };
 
+  closeDropdown = () => {
+    this.isOpened = false;
+  };
+
   dropdownToggleCSSClass = () =>
     'dropdown-placeholder ' + (this.isOpened ? 'dropdown-placeholder--opened' : '');
 
@@ -28,14 +32,14 @@ export class MyDropdown {
     let targetValue = event.target.value;
     this.placeholderText = targetValue.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + ' km';
     this.placeholderValue = targetValue;
-    this.isOpened = false;
+    this.closeDropdown();
     this.dropdownSelectedOption.emit(this.placeholderValue);
   };
 
   handleReset = () => {
     this.placeholderValue = 'unset';
     this.placeholderText = this.placeholder;
-    this.isOpened = false;
+    this.closeDropdown();
 
     const selectedOption = document.querySelector('input[type=radio]:checked') as HTMLInputElement;
     if (selectedOption) {

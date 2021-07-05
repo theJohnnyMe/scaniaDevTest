@@ -9,8 +9,15 @@
 
 | Property      | Attribute     | Description | Type     | Default                                                                                                     |
 | ------------- | ------------- | ----------- | -------- | ----------------------------------------------------------------------------------------------------------- |
-| `optionList`  | --            |             | `any[]`  | `[     { text: '<= 200000 km', value: '<= 200000' },     { text: '> 200 000 km', value: '> 200 000' },   ]` |
+| `optionList`  | --            |             | `any[]`  | `[     { text: '<= 200 000 km', value: '<= 200000' },     { text: '> 200 000 km', value: '> 200000' },   ]` |
 | `placeholder` | `placeholder` |             | `string` | `'Placeholder text'`                                                                                        |
+
+
+## Events
+
+| Event                    | Description | Type                  |
+| ------------------------ | ----------- | --------------------- |
+| `dropdownSelectedOption` |             | `CustomEvent<string>` |
 
 
 ----------------------------------------------

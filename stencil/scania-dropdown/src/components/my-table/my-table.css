@@ -23,6 +23,7 @@ table th, table td {
   color: var(--grey-900);
   text-align: left;
   padding: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 table th {
   font-weight: 700;
