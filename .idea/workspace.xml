@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="new react app">
-      <change afterPath="$PROJECT_DIR$/react-app/src/styles/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-app/src/vectors/logo.svg" afterDir="false" />
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +66,7 @@
       <updated>1625047076399</updated>
       <workItem from="1625047082045" duration="26189000" />
       <workItem from="1625510564878" duration="1814000" />
-      <workItem from="1625512458426" duration="815000" />
+      <workItem from="1625512458426" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app-container, header and subheader elements and styles">
       <created>1625067200991</created>
@@ -288,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625512169567</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="React Eureka!">
+      <created>1625513305762</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1625513305762</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Deleting broken code">
+      <created>1625513441432</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1625513441432</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,8 +312,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding stencil to project" />
-    <MESSAGE value="Adding my-dropdown" />
     <MESSAGE value="Adding SVG Arrow + animation" />
     <MESSAGE value="Setting up value in button" />
     <MESSAGE value="unversioned files" />
@@ -333,7 +335,9 @@
     <MESSAGE value="Angular Success!" />
     <MESSAGE value="spacing in angular" />
     <MESSAGE value="new react app" />
-    <option name="LAST_COMMIT_MESSAGE" value="new react app" />
+    <MESSAGE value="React Eureka!" />
+    <MESSAGE value="Deleting broken code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleting broken code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
