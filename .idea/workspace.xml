@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Renaming placeholder for dropdown">
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Roboto font to stencil components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/styles/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/src/styles/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/styles/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/src/styles/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/styles/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625476993449</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Roboto font to stencil components">
+      <created>1625487083350</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1625487083350</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +249,8 @@
     <MESSAGE value="table state and style" />
     <MESSAGE value="Receiving even in table and filtering" />
     <MESSAGE value="Renaming placeholder for dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming placeholder for dropdown" />
+    <MESSAGE value="Roboto font to stencil components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Roboto font to stencil components" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
