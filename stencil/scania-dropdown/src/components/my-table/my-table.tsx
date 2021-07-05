@@ -1,4 +1,4 @@
-import { Component, h, Prop } from '@stencil/core';
+import { Component, h, Prop, State } from '@stencil/core';
 
 @Component({
   tag: 'my-table',
@@ -6,7 +6,7 @@ import { Component, h, Prop } from '@stencil/core';
   shadow: false,
 })
 export class MyTable {
-  @Prop() tableData: any[] = [
+  @Prop() tableDataProp: any[] = [
     {
       driver: 'Marcus Lundberg',
       company: 'Aris FC',
@@ -32,6 +32,7 @@ export class MyTable {
       score: 78,
     },
   ];
+  @State() tableDataState = this.tableDataProp;
 
   render() {
     let tableComponent = (
@@ -45,7 +46,7 @@ export class MyTable {
           </tr>
         </thead>
         <tbody>
-          {this.tableData.map(item => (
+          {this.tableDataState.map(item => (
             <tr key={item.id}>
               <td>{item.driver}</td>
               <td>{item.company}</td>

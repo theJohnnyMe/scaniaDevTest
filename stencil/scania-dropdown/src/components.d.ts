@@ -11,7 +11,7 @@ export namespace Components {
         "placeholder": string;
     }
     interface MyTable {
-        "tableData": any[];
+        "tableDataProp": any[];
     }
 }
 declare global {
@@ -38,7 +38,7 @@ declare namespace LocalJSX {
         "placeholder"?: string;
     }
     interface MyTable {
-        "tableData"?: any[];
+        "tableDataProp"?: any[];
     }
     interface IntrinsicElements {
         "my-dropdown": MyDropdown;

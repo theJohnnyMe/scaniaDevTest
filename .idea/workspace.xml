@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="dynamic option list">
-      <change afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.tsx" afterDir="false" />
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="table as stencil component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625430327091</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="table as stencil component">
+      <created>1625471304819</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1625471304819</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +214,8 @@
     <MESSAGE value="adding prettier to scania dropdown" />
     <MESSAGE value="Setting shadow to true" />
     <MESSAGE value="dynamic option list" />
-    <option name="LAST_COMMIT_MESSAGE" value="dynamic option list" />
+    <MESSAGE value="table as stencil component" />
+    <option name="LAST_COMMIT_MESSAGE" value="table as stencil component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

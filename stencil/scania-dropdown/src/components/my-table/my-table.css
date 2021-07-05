@@ -9,6 +9,12 @@
   --blue-200: #C1C6D8;
   --blue-900: #041E42;
 }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 table th, table td {
   height: auto;
   width: 192px;
