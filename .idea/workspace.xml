@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Roboto font to stencil components">
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="cleaning unused code, styles alignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/styles/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/src/styles/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/styles/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/src/styles/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/styles/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625487083350</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="cleaning unused code, styles alignment">
+      <created>1625487551581</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1625487551581</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +252,8 @@
     <MESSAGE value="Receiving even in table and filtering" />
     <MESSAGE value="Renaming placeholder for dropdown" />
     <MESSAGE value="Roboto font to stencil components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Roboto font to stencil components" />
+    <MESSAGE value="cleaning unused code, styles alignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaning unused code, styles alignment" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
