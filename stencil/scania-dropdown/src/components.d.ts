@@ -34,6 +34,7 @@ declare global {
 }
 declare namespace LocalJSX {
     interface MyDropdown {
+        "onDropdownSelectedOption"?: (event: CustomEvent<string>) => void;
         "optionList"?: any[];
         "placeholder"?: string;
     }

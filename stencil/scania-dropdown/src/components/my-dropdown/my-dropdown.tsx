@@ -1,4 +1,4 @@
-import { Component, Prop, h, State, Fragment } from '@stencil/core';
+import { Component, Prop, h, State, Fragment, Event, EventEmitter } from '@stencil/core';
 
 @Component({
   tag: 'my-dropdown',
@@ -8,11 +8,11 @@ import { Component, Prop, h, State, Fragment } from '@stencil/core';
 export class MyDropdown {
   @Prop() placeholder: string = 'Placeholder text';
   @Prop() optionList: any[] = [
-    { text: '<= 200000 km', value: '<= 200000' },
-    { text: '> 200 000 km', value: '> 200 000' },
+    { text: '<= 200 000 km', value: '<= 200000' },
+    { text: '> 200 000 km', value: '> 200000' },
   ];
   @State() placeholderText: string = this.placeholder;
-  @State() placeholderValue: number = 0;
+  @State() placeholderValue: string = 'unset';
   @State() isOpened: boolean = false;
 
   toggleDropdown = () => {
@@ -22,15 +22,18 @@ export class MyDropdown {
   dropdownToggleCSSClass = () =>
     'dropdown-placeholder ' + (this.isOpened ? 'dropdown-placeholder--opened' : '');
 
+  @Event({ bubbles: true, composed: true }) dropdownSelectedOption: EventEmitter<string>;
+
   handleOnChange = event => {
-    this.placeholderText =
-      event.target.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + ' km';
-    this.placeholderValue = event.target.value;
+    let targetValue = event.target.value;
+    this.placeholderText = targetValue.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + ' km';
+    this.placeholderValue = targetValue;
     this.isOpened = false;
+    this.dropdownSelectedOption.emit(this.placeholderValue);
   };
 
   handleReset = () => {
-    this.placeholderValue = 0;
+    this.placeholderValue = 'unset';
     this.placeholderText = this.placeholder;
     this.isOpened = false;
 
@@ -38,6 +41,7 @@ export class MyDropdown {
     if (selectedOption) {
       selectedOption.checked = false;
     }
+    this.dropdownSelectedOption.emit(this.placeholderValue);
   };
 
   render() {

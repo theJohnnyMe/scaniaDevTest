@@ -1,4 +1,4 @@
-import { Component, h, Prop, State } from '@stencil/core';
+import { Component, h, Listen, Prop, State } from '@stencil/core';
 
 @Component({
   tag: 'my-table',
@@ -32,8 +32,44 @@ export class MyTable {
       score: 78,
     },
   ];
-  @State() tableDataState = this.tableDataProp;
+  @State() tableDataState: any[] = this.tableDataProp;
 
+  @Listen('dropdownSelectedOption', { target: 'body' })
+  handleDropdownSelectedOption(event: CustomEvent<string>) {
+    let valueReceived = event.detail;
+    let conditionOperator = valueReceived.split(' ')[0];
+    let conditionNumber = Number(valueReceived.split(' ')[1]);
+
+    switch (conditionOperator) {
+      case '<':
+        this.tableDataState = this.tableDataProp.filter(item => {
+          return item.distance < conditionNumber;
+        });
+        break;
+      case '<=':
+        this.tableDataState = this.tableDataProp.filter(item => {
+          return item.distance <= conditionNumber;
+        });
+        break;
+      case '=':
+        this.tableDataState = this.tableDataProp.filter(item => {
+          return (item.distance = conditionNumber);
+        });
+        break;
+      case '>':
+        this.tableDataState = this.tableDataProp.filter(item => {
+          return item.distance > conditionNumber;
+        });
+        break;
+      case '>=':
+        this.tableDataState = this.tableDataProp.filter(item => {
+          return item.distance >= conditionNumber;
+        });
+        break;
+      default:
+        this.tableDataState = this.tableDataProp;
+    }
+  }
   render() {
     let tableComponent = (
       <table>
