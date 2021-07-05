@@ -4,7 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-import { defineCustomElements } from 'stencil-custom-dropdown/loader';
+import { defineCustomElements } from 'johnny-custom-dropdown/loader';
 
 if (environment.production) {
   enableProdMode();

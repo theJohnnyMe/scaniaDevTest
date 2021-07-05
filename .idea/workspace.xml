@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="new stencil project">
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="lock files">
+      <change afterPath="$PROJECT_DIR$/angular-app/src/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/reset.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/vectors/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-dropdown/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/custom-dropdown/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/custom-dropdown/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +41,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/custom-dropdown/src/components/my-component/my-table" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-app/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/stencil/scania-dropdown/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
@@ -46,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/angular-app/src" />
       <recent name="$PROJECT_DIR$/custom-dropdown/src/components/my-component/my-table" />
       <recent name="$PROJECT_DIR$/custom-dropdown/src/components/my-component/my-dropdown" />
       <recent name="$PROJECT_DIR$/stencil/scania-dropdown/src/components" />
@@ -64,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625047076399</updated>
       <workItem from="1625047082045" duration="26189000" />
-      <workItem from="1625510564878" duration="183000" />
+      <workItem from="1625510564878" duration="990000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app-container, header and subheader elements and styles">
       <created>1625067200991</created>
@@ -234,7 +244,28 @@
       <option name="project" value="LOCAL" />
       <updated>1625509775475</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="new beginning">
+      <created>1625510863783</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1625510863783</updated>
+    </task>
+    <task id="LOCAL-00026" summary="lock files">
+      <created>1625510874776</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1625510874776</updated>
+    </task>
+    <task id="LOCAL-00027" summary="lock files">
+      <created>1625510895610</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1625510895610</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +284,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding app-container, header and subheader elements and styles" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Adding table, table data and styles" />
     <MESSAGE value="Comments during development" />
     <MESSAGE value="Hover on table row, making column title bold" />
@@ -277,7 +308,9 @@
     <MESSAGE value="cleaning unused code, styles alignment" />
     <MESSAGE value="issue with react and angular" />
     <MESSAGE value="new stencil project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new stencil project" />
+    <MESSAGE value="new beginning" />
+    <MESSAGE value="lock files" />
+    <option name="LAST_COMMIT_MESSAGE" value="lock files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

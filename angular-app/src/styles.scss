@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "reset";
+
+:root {
+  --white: #FFFFFF;
+  --grey-50: #F6F6F7;
+  --grey-100: #E2E2E4;
+  --grey-900: #171719;
+  --blue-100: #E0E2EB;
+  --blue-200: #C1C6D8;
+  --blue-600: #2058A8;
+  --blue-900: #041E42;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  background-color: var(--grey-50);
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  height: 64px;
+  width: 100%;
+  background-color: var(--blue-900);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: var(--white);
+  align-self: center;
+  padding-left: 24px;
+}
+
+.header-logo {
+  background-image: url("./vectors/logo.svg");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  padding-right: 16px;
+}
+
+.subheader{
+  height: 68px;
+  width: 100%;
+  background-color: var(--white);
+  display: flex;
+}
+
+.subheader-title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--blue-900);
+  align-self: center;
+  padding-left: 36px;
+}
+
+main {
+  padding: 40px;
+}
