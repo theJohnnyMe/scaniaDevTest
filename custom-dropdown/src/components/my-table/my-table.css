@@ -1,0 +1,41 @@
+:root {
+  --white: #FFFFFF;
+  --grey-50: #F6F6F7;
+  --grey-100: #E2E2E4;
+  --grey-900: #171719;
+  --blue-100: #E0E2EB;
+  --blue-200: #C1C6D8;
+  --blue-600: #2058A8;
+  --blue-900: #041E42;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th, table td {
+  height: auto;
+  width: 192px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--grey-900);
+  text-align: left;
+  padding: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+table th {
+  font-weight: 700;
+}
+table thead tr {
+  background-color: var(--blue-100);
+  border-bottom: 1px solid var(--blue-200);
+}
+table tbody tr {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--grey-100);
+  transition: background-color 300ms ease;
+}
+table tbody tr:hover {
+  background-color: var(--blue-200);
+}

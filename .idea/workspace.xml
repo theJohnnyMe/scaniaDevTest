@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="cleaning unused code, styles alignment">
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="issue with react and angular">
+      <change afterPath="$PROJECT_DIR$/custom-dropdown/src/components/my-dropdown/my-dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-dropdown/src/components/my-dropdown/my-dropdown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-dropdown/src/components/my-table/my-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-dropdown/src/components/my-table/my-table.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropdown/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/stencil/scania-dropdown/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/custom-dropdown/src/components/my-component/my-table" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/stencil/scania-dropdown/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
@@ -47,9 +46,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/custom-dropdown/src/components/my-component/my-table" />
+      <recent name="$PROJECT_DIR$/custom-dropdown/src/components/my-component/my-dropdown" />
       <recent name="$PROJECT_DIR$/stencil/scania-dropdown/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/custom-dropdown/src/components" />
       <recent name="$PROJECT_DIR$/dropdown/src/styles" />
     </key>
   </component>
@@ -217,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625487551581</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="issue with react and angular">
+      <created>1625509501824</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1625509501824</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +266,8 @@
     <MESSAGE value="Renaming placeholder for dropdown" />
     <MESSAGE value="Roboto font to stencil components" />
     <MESSAGE value="cleaning unused code, styles alignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaning unused code, styles alignment" />
+    <MESSAGE value="issue with react and angular" />
+    <option name="LAST_COMMIT_MESSAGE" value="issue with react and angular" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
