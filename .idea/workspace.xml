@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="issue with react and angular">
-      <change afterPath="$PROJECT_DIR$/custom-dropdown/src/components/my-dropdown/my-dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-dropdown/src/components/my-dropdown/my-dropdown.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-dropdown/src/components/my-table/my-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-dropdown/src/components/my-table/my-table.tsx" afterDir="false" />
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="new stencil project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-dropdown/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/custom-dropdown/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/custom-dropdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625047076399</updated>
       <workItem from="1625047082045" duration="26189000" />
+      <workItem from="1625510564878" duration="183000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app-container, header and subheader elements and styles">
       <created>1625067200991</created>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625509501824</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="new stencil project">
+      <created>1625509775475</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1625509775475</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +250,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding app-container, header and subheader elements and styles" />
@@ -267,7 +276,8 @@
     <MESSAGE value="Roboto font to stencil components" />
     <MESSAGE value="cleaning unused code, styles alignment" />
     <MESSAGE value="issue with react and angular" />
-    <option name="LAST_COMMIT_MESSAGE" value="issue with react and angular" />
+    <MESSAGE value="new stencil project" />
+    <option name="LAST_COMMIT_MESSAGE" value="new stencil project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

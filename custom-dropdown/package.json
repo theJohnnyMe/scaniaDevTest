@@ -1,7 +1,7 @@
 {
-  "name": "custom-dropdown",
+  "name": "johnny-custom-dropdown",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Dropdown and Table component made in Stencil JS",
   "main": "dist/index.cjs.js",
   "module": "dist/custom-elements/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -24,5 +24,10 @@
   "dependencies": {
     "@stencil/core": "^2.0.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.21",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3"
+  }
 }
