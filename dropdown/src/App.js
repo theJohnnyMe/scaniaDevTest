@@ -12,6 +12,11 @@ function App() {
       </div>
       <main>
         <p>Stencil Component place</p>
+        <my-dropdown placeholder="Distance"></my-dropdown>
+        <br />
+        <br />
+        <br />
+        <my-table></my-table>
       </main>
     </div>
   );

@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="cleaning unused code, styles alignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/stencil/scania-dropdown/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/angular-app/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">

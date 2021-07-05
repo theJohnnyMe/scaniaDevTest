@@ -1479,6 +1479,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@stencil/core@^2.0.1":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.6.0.tgz#29da96d8b6fc83e689b9f297ef3e8b59b90a676a"
+  integrity sha512-QsxWayZyusnqSZrlCl81R71rA3KqFjVVQSH4E0rGN15F1GdQaFonKlHLyCOLKLig1zzC+DQkLLiUuocexuvdeQ==
+
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-1.4.2.tgz#e6786b6af5799f82f7ab3a82e53f6182d2b91a58"
@@ -10305,6 +10310,13 @@ stealthy-require@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
+
+stencil-custom-dropdown@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/stencil-custom-dropdown/-/stencil-custom-dropdown-1.0.0.tgz#11830a9fddcaddad09946cdb4502f6f32d8ebe90"
+  integrity sha512-NOj5LRCuGpm73Ru5uzI49+J+Vsx7qnqnO+RqGqCGhFkGi4VoZfNwnHZhILnLgPWph29vT+CPjcJ/ojDgdtbQMw==
+  dependencies:
+    "@stencil/core" "^2.0.1"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
