@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="Setting shadow to true">
+    <list default="true" id="0a4429ce-c12a-4a0c-94d3-71ea76592573" name="Default Changelist" comment="dynamic option list">
+      <change afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-table/my-table.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/my-dropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/components/my-dropdown/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stencil/scania-dropdown/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1ufC5Oy0MQGYDbzh5GSwSErMgHR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -164,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625427842601</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="dynamic option list">
+      <created>1625430327091</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1625430327091</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +207,8 @@
     <MESSAGE value="spacing" />
     <MESSAGE value="adding prettier to scania dropdown" />
     <MESSAGE value="Setting shadow to true" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting shadow to true" />
+    <MESSAGE value="dynamic option list" />
+    <option name="LAST_COMMIT_MESSAGE" value="dynamic option list" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
